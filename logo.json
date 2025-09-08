@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Lottie Wrapper</title>
+  <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+  <style>
+    body {
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background: #111; /* or transparent */
+    }
+  </style>
+</head>
+<body>
+  <lottie-player 
+    src="https://homebridgetherapy-project.netlify.app/logo/logo.json"
+    background="transparent"
+    speed="1"
+    style="width: 300px; height: 300px;"
+    loop
+    autoplay>
+  </lottie-player>
+</body>
+</html>
